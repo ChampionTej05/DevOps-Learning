@@ -62,6 +62,10 @@ Results into
 
  8. To know current release `ls /etc/*release*`
 
+ 9. Get all Environment variables `printenv` or `env`
+
+ 10. To print tree structure of directory `directoryPath; tree` ';' is important
+
 
 ### Package Managers
 

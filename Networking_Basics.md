@@ -8,7 +8,7 @@ CheatSheet : https://access.redhat.com/sites/default/files/attachments/rh_ip_com
 
 1. To connect two systems/cloud we need switch which creates network between them
 2. It needs interface to connect ex: eth01
-3. Check interface using `ip link`
+3. Check interface state using `ip link` and `ip addr` for IPs
 4. Switch helps to connect systems **within the network**
 
 
@@ -17,12 +17,12 @@ CheatSheet : https://access.redhat.com/sites/default/files/attachments/rh_ip_com
 2. It gets two different IPs on each side of network to communicate
 
 ## Gateways
-1. How to locate before communicating outside of our Networking
+1. How to locate Router before communicating outside of our Networking
 2. Gateway is used to find the route the packet to the router.
 3. Gateway is basically a door in network to go out
 4. Displays current routing information and table `route`
 
-
+Question  to ask on community : If app03 has 2 IPs on same interface, which one is given preferences and why ? Why not use 238 subnet IP and connect to JUMP HOST. 
 ### How to expose your network to the external world.
 
 We are using the PDF mentioned in the above link for understanding and
