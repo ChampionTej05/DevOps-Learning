@@ -37,7 +37,7 @@
 Steps to Build java app
   * `javac MyClass.java` compile
   * `javadoc MyClass.java` for generating documentation
-  * `jar cf MyClass.jar MyClass.java..` for building the multiple class into package
+  * `jar -cvf MyClass.jar MyClass.java..` for building the multiple class into package
   * `java -jar MyClass.jar` run the app or `java MyClass` if single class is present
 
 1. Compiler converts the Source Code first into Intermediate Byte Code (.class) files

@@ -66,6 +66,8 @@ Results into
 
  10. To print tree structure of directory `directoryPath; tree` ';' is important
 
+ 11. Find and Replace. Replace string 8080 with 9090 for all occurences `sudo sed -i 's/8080/9090/g' conf/server.xml`
+
 
 ### Package Managers
 
